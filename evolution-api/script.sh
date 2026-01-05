@@ -90,8 +90,8 @@ docker compose up -d
 
 echo -e "${VERDE}✅ INSTALACIÓN COMPLETADA${NC}"
 echo -e "${AMARILLO}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "🌐 URL: http://${MI_IP}:8080/manager"
-echo -e "🔑 API Key: ${MI_CLAVE}"
+echo -e "🌐 URL: http://${IP}:8080/manager"
+echo -e "🔑 API Key: ${PASSWORD}"
 echo -e "${AMARILLO}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
 # Mostrar logs
