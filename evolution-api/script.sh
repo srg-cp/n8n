@@ -35,12 +35,10 @@ docker compose down -v 2>/dev/null || true
 
 echo -e "${VERDE}[5/6] Generando configuración...${NC}"
 cat > docker-compose.yml <<EOF
-version: '3.3'
-
 services:
   evolution_api:
     container_name: evolution_api
-    image: evoapicloud/evolution-api:v2.1.1
+    image: evoapicloud/evolution-api:latest
     restart: always
     ports:
       - "8080:8080"
